@@ -15,27 +15,31 @@ main {
   height: 100vh;
   gap: 10px;
   padding: 96px 260px;
-}
 
-.container {
-  border-radius: 8px;
-  padding: 30px;
-  background-color: #ffffff;
-}
+  & .container {
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #ffffff;
 
-h2 {
-  font-weight: 400;
-  font-size: 36px;
-}
+    & h2{
+      font-weight: 400;
+      font-size: 36px;
+    }
 
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+    & form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
 
-label {
-  font-weight: 400;
+      & .nome {
+        gap: 6px;
+        
+        & label {
+            font-weight: 400;
+        }
+      }
+    }
+  }
 }
 
 input {
