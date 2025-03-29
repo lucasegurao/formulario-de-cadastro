@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px;
+    padding: 96px 260px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    min-width: 100%;
+    gap: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 36px;
+
+}
+
+.grupo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.grupo-input {
+    flex: 1;
+    min-width: 200px
+}
+
+label {
+    display: flex;
+    color: #2B2B2B;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 6px 10px;
+    border: 0.5px solid #757575;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5378BB;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    gap: 6px;
+}
+
+button:hover {
+    background-color: #364f7c;
+}
+
+.small {
+    flex: 1;
+}
+
+.large {
+    flex: 2;
+}
